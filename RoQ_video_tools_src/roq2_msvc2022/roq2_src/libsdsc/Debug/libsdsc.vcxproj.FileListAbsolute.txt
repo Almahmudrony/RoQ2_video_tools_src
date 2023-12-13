@@ -1,1 +1,0 @@
-E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\libsdsc\Debug\libsdsc.lib
