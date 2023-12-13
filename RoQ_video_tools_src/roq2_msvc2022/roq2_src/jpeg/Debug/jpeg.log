@@ -1,0 +1,78 @@
+﻿  cdjpeg.c
+  jcapimin.c
+  jcapistd.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcphuff.c
+  jcprepct.c
+  jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdatadst.c
+  Generating Code...
+  Compiling...
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdmerge.c
+  jdphuff.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jerror.c(337,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jerror.c(341,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jfdctflt.c
+  jfdctfst.c
+  jfdctint.c
+  jidctflt.c
+  jidctfst.c
+  Generating Code...
+  Compiling...
+  jidctint.c
+  jidctred.c
+  jmemmgr.c
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jmemmgr.c(2205,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jmemmgr.c(2211,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jmemnobs.c
+  jpegtran.c
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jpegtran.c(275,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jpegtran.c(355,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jpegtran.c(607,23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\jpegtran.c(629,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jquant1.c
+  jquant2.c
+  jutils.c
+  rdbmp.c
+  rdcolmap.c
+  rdgif.c
+  rdppm.c
+  rdrle.c
+  rdswitch.c
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\rdswitch.c(197,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\rdswitch.c(383,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\rdswitch.c(577,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\rdswitch.c(645,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  rdtarga.c
+  wrbmp.c
+  wrgif.c
+  wrppm.c
+  wrrle.c
+  wrtarga.c
+  Generating Code...
+  jpeg.vcxproj -> E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\Debug\jpeg.lib

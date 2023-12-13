@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bfa3bfeb-30cd-4daa-85af-889cc25f28fb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{133afc8a-ebc6-45b6-ad40-d72b96c6a4a4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a247559c-c0b8-42b9-95e5-6cd6c323caef}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="im.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imclt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imcur.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imeps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imerrno.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imfmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgiflzw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imhdfread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imhdfwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imico.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imicon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imiff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imipw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imlzw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="immiff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="immpnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impcx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="impix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imras.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imrgb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imrla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imrle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imschemes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imsoftimage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imsynu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imtga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imtiff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbadjust.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbchan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbcomp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbflip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbgamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbhist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfblight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbresize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbrotate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imvfbto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imviff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imxbm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imxpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imxwd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="macpack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libsdsc\arg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsdsc\bin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="im.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imhdfinternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iminternal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="impref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imxpm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jmorecfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jpeg\jpeglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsdsc\sdsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsdsc\sdscconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsdsc\sdsccopyright.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsdsc\tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

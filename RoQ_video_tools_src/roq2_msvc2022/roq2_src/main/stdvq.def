@@ -1,0 +1,23 @@
+/******************************************************************************
+ *
+ * NAME
+ *    stdvq.def
+ *    J. R. Goldschneider 5/93
+ *
+ * DESCRIPTION
+ *    All global variables are defined here.
+ *
+ *****************************************************************************/
+
+FILE     *trainingfile;			/* training sequence file 	  */
+char     trainingname[NAME_MAXIMUM];	/* training sequence file name	  */
+char     codebookname[NAME_MAXIMUM];	/* codebook file name 		  */
+int      dimension; 			/* data vector dimension 	  */
+long     codebooksize;			/* final codebook size 		  */
+float    threshold;			/* convergence threshold	  */
+float    offset_add;			/* codeword split additive offset */
+float    offset_mul;		  /* codework split multiplicative offset */
+BOOLEAN  write_all_codebooks;		/* flag for codebook writing	  */
+BOOLEAN  display_info;			/* flag for information display	  */
+char     programname[NAME_MAXIMUM];
+//char     *programname;			/* program name 		  */

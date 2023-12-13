@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LibSNDFile">
+      <UniqueIdentifier>{f1366494-6ca3-42ed-90e1-513afcb70b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\roqmux\adpcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sb4avisoundreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sb4getfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sb4lsfreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbmux4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbmux4main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tdp\tdp_exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tdp\tdp_guard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tdp\tdp_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tdp\tdp_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\add.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\aiff.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\alaw.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\au.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\au_g72x.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\code.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\command.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\common.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\decode.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\dither.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\double64.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\dwd.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\dwvw.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\file_io.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\float32.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g721.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g723_16.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g723_24.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g723_40.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g72x.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\gsm610.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_create.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_decode.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_destroy.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_encode.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_option.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\htk.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\ima_adpcm.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\interleave.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\ircam.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\long_term.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\lpc.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\mat4.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\mat5.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\ms_adpcm.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\nist.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\ogg.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\paf.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\pcm.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\preprocess.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\pvf.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\raw.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\rpe.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\rx2.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\sd2.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\sds.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\sfendian.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\short_term.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\sndfile.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\strings.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\svx.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\table.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\txw.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\ulaw.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\voc.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\vox_adpcm.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\w64.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\wav.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\wav_w64.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\wve.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roqmux\LibSNDFile\xi.c">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sb4avisoundreader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\au.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\common.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\GSM610\config.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\float_cast.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\G72x\g72x.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\G72x\g72x_priv.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\GSM610\gsm.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\GSM610\gsm610_priv.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\sfendian.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\sndfile.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\roqmux\LibSNDFile\wav_w64.h">
+      <Filter>Source Files\LibSNDFile</Filter>
+    </ClInclude>
+    <ClInclude Include="sb4lsfreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sb4soundreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

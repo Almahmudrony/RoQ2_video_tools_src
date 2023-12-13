@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{5F2C8BB8-0627-45CC-8FFF-61854A0005B5}</ProjectGuid>
+    <RootNamespace>sbmux4</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33927.210</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\roqmux\LibSNDFile\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>loff_t=long;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>vfw32.lib;comdlg32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../release/tools/sbmux4_dbg.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\roqmux\LibSNDFile\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>loff_t=long;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>vfw32.lib;comdlg32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../release/tools/sbmux4.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tdp\tdp_exception.cpp" />
+    <ClCompile Include="..\..\tdp\tdp_guard.cpp" />
+    <ClCompile Include="..\..\tdp\tdp_string.cpp" />
+    <ClCompile Include="..\..\tdp\tdp_vector.cpp" />
+    <ClCompile Include="..\roqmux\adpcm.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\aiff.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\alaw.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\au.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\au_g72x.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\command.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\common.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\dither.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\double64.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\dwd.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\dwvw.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\file_io.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\float32.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g721.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g723_16.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g723_24.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g723_40.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\G72x\g72x.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\gsm610.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\add.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\code.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\decode.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_create.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_decode.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_destroy.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_encode.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\gsm_option.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\long_term.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\lpc.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\preprocess.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\rpe.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\short_term.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\GSM610\table.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\htk.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\ima_adpcm.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\interleave.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\ircam.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\mat4.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\mat5.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\ms_adpcm.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\nist.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\ogg.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\paf.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\pcm.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\pvf.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\raw.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\rx2.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\sd2.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\sds.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\sfendian.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\sndfile.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\strings.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\svx.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\txw.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\ulaw.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\voc.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\vox_adpcm.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\w64.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\wav.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\wav_w64.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\wve.c" />
+    <ClCompile Include="..\roqmux\LibSNDFile\xi.c" />
+    <ClCompile Include="..\sb4getfile.cpp" />
+    <ClCompile Include="sb4avisoundreader.cpp" />
+    <ClCompile Include="sb4lsfreader.cpp" />
+    <ClCompile Include="sbmux4.cpp" />
+    <ClCompile Include="sbmux4main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\roqmux\LibSNDFile\au.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\common.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\float_cast.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\G72x\g72x.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\G72x\g72x_priv.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\GSM610\config.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\GSM610\gsm.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\GSM610\gsm610_priv.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\sfendian.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\sndfile.h" />
+    <ClInclude Include="..\roqmux\LibSNDFile\wav_w64.h" />
+    <ClInclude Include="sb4avisoundreader.h" />
+    <ClInclude Include="sb4lsfreader.h" />
+    <ClInclude Include="sb4soundreader.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

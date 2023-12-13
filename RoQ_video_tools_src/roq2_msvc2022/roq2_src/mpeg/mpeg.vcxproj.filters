@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38f76084-6c60-41f2-93b5-0f2013fd7a52}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{13503a0d-a38e-4bdd-bf82-ccf89746bb26}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c92688a4-1239-4bff-8885-939bac6eeaf1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getblk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gethdr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getpic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getvlc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idctref.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg2dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MpegDecoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spatscal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="store.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subspic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systems.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="verify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

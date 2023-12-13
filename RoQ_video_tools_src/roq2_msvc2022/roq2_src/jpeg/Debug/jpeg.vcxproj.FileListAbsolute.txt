@@ -1,0 +1,1 @@
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\jpeg\Debug\jpeg.lib

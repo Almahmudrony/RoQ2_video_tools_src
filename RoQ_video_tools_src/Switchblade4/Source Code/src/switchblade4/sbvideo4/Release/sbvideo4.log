@@ -1,0 +1,37 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: The property "MsvcAnalysisPluginPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+  tdp_exception.cpp
+  tdp_guard.cpp
+  tdp_string.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\tdp\tdp_string.cpp(101,8): warning C4101: 'ptr': unreferenced local variable
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\tdp\tdp_string.cpp(100,9): warning C4101: 'capacity': unreferenced local variable
+  tdp_vector.cpp
+  sb4avi.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4image.h(44,7): warning C4101: 'i': unreferenced local variable
+  sb4getfile.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4getfile.cpp(25,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4getfile.cpp(67,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sb4sdl.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4image.h(44,7): warning C4101: 'i': unreferenced local variable
+  sb4unpack.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4image.h(44,7): warning C4101: 'i': unreferenced local variable
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4unpack.cpp(26,21): warning C4101: 'y': unreferenced local variable
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4unpack.cpp(26,18): warning C4101: 'x': unreferenced local variable
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4unpack.cpp(49,6): warning C4101: 'temp': unreferenced local variable
+  sb4videoenc.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4image.h(44,7): warning C4101: 'i': unreferenced local variable
+  sb4input.cpp
+  sbvideo4.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4image.h(44,7): warning C4101: 'i': unreferenced local variable
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbvideo4\sbvideo4.cpp(124,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbvideo4\sbvideo4.cpp(187,90): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbvideo4\sbvideo4.cpp(110,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbvideo4\sbvideo4.cpp(117,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbvideo4\sbvideo4.cpp(184,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbvideo4\sbvideo4.cpp(89,12): warning C4101: 'event': unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1389,5): warning MSB8012: TargetPath(E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\Release\sbvideo4.exe) does not match the Linker's OutputFile property value (E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\release\tools\sbvideo4.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: "link.exe" exited with code 1120.
+SDLmain.lib(SDL_main.obj) : error LNK2001: unresolved external symbol __imp__fprintf
+SDLmain.lib(SDL_main.obj) : error LNK2001: unresolved external symbol __imp___iob
+SDLmain.lib(SDL_main.obj) : error LNK2001: unresolved external symbol __imp___pctype
+SDLmain.lib(SDL_main.obj) : error LNK2001: unresolved external symbol __imp____mb_cur_max
+..\..\..\release\tools\sbvideo4.exe : fatal error LNK1120: 4 unresolved externals

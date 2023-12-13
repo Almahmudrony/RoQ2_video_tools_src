@@ -1,0 +1,173 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Analysis.props(24,5): warning MSB4211: The property "MsvcAnalysisPluginPath" is being set to a value for the first time, but it was already consumed at "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CodeAnalysis.Extensions.props (33,5)".
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  sbmux4main.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbmux4\sbmux4main.cpp(26,7): warning C4101: 'soundIsAVI': unreferenced local variable
+  sbmux4.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbmux4\sbmux4.cpp(390,24): warning C4018: '<': signed/unsigned mismatch
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbmux4\sbmux4.cpp(470,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbmux4\sbmux4.cpp(472,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbmux4\sbmux4.cpp(505,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sb4lsfreader.cpp
+  sb4avisoundreader.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sbmux4\sb4avisoundreader.cpp(50,9): warning C4101: 'numRead': unreferenced local variable
+  sb4getfile.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4getfile.cpp(25,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\sb4getfile.cpp(67,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  tdp_vector.cpp
+  tdp_string.cpp
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\tdp\tdp_string.cpp(101,8): warning C4101: 'ptr': unreferenced local variable
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\tdp\tdp_string.cpp(100,9): warning C4101: 'capacity': unreferenced local variable
+  tdp_guard.cpp
+  tdp_exception.cpp
+  Generating Code...
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  xi.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\xi.c(94,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  wve.c
+  wav_w64.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav_w64.c(155,6): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  wav.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav.c(449,23): warning C4018: '>=': signed/unsigned mismatch
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav.c(356,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav.c(981,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav.c(992,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav.c(1084,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\wav.c(1089,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  w64.c
+  vox_adpcm.c
+  voc.c
+  ulaw.c
+  txw.c
+  svx.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\svx.c(321,23): warning C4018: '>=': signed/unsigned mismatch
+  strings.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\strings.c(111,8): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\strings.c(113,8): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sndfile.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(286,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(287,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(318,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(319,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(443,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(670,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(672,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(717,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(767,4): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(1875,2): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(2057,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\sndfile.c(2071,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sfendian.c
+  sds.c
+  sd2.c
+  rx2.c
+  raw.c
+  pvf.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\pvf.c(114,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\pvf.c(150,6): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pcm.c
+  paf.c
+  Generating Code...
+  Compiling...
+  ogg.c
+  nist.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(158,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(173,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(176,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(179,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(184,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(191,4): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\nist.c(214,3): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ms_adpcm.c
+  mat5.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\mat5.c(359,6): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mat4.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\mat4.c(241,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\mat4.c(383,2): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ircam.c
+  interleave.c
+  ima_adpcm.c
+  htk.c
+  table.c
+  short_term.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(57,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(58,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(59,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(60,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(62,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(63,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(64,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(65,2): warning C4244: '=': conversion from 'long' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(256,8): warning C4244: '=': conversion from 'float' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(258,35): warning C4244: '=': conversion from 'float' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(336,17): warning C4244: '=': conversion from 'float' to 'word', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\short_term.c(338,35): warning C4244: '=': conversion from 'float' to 'word', possible loss of data
+  rpe.c
+  preprocess.c
+  lpc.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\lpc.c(165,25): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+  long_term.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(510,45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(570,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(571,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(572,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(573,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(574,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(575,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(576,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(577,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(578,29): warning C4244: '=': conversion from 'float' to 'longword', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\GSM610\long_term.c(819,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  gsm_option.c
+  gsm_encode.c
+  gsm_destroy.c
+  gsm_decode.c
+  gsm_create.c
+  Generating Code...
+  Compiling...
+  decode.c
+  code.c
+  add.c
+  gsm610.c
+  g72x.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\G72x\g72x.c(462,24): warning C4244: '=': conversion from 'long' to 'short', possible loss of data
+  g723_40.c
+  g723_24.c
+  g723_16.c
+  g721.c
+  float32.c
+  file_io.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(360,18): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(362,18): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(433,11): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(468,11): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(504,19): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(521,12): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(632,11): warning C4996: 'chsize': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _chsize. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\file_io.c(652,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  dwvw.c
+  dwd.c
+  double64.c
+  dither.c
+  common.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(334,2): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(566,8): warning C4293: '>>': shift count negative or too big, undefined behavior
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(570,8): warning C4293: '>>': shift count negative or too big, undefined behavior
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(611,8): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(614,8): warning C4267: '=': conversion from 'size_t' to 'unsigned char', possible loss of data
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(972,10): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(979,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\common.c(983,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  command.c
+  au_g72x.c
+  au.c
+  alaw.c
+  Generating Code...
+  Compiling...
+  aiff.c
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\aiff.c(629,23): warning C4018: '>=': signed/unsigned mismatch
+E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\roqmux\LibSNDFile\aiff.c(385,7): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  adpcm.c
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1389,5): warning MSB8012: TargetPath(E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\Debug\sbmux4.exe) does not match the Linker's OutputFile property value (E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\release\tools\sbmux4_dbg.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetName(sbmux4) does not match the Linker's OutputFile property value (sbmux4_dbg). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  sbmux4.vcxproj -> E:\DoomAndRedEngine\GameEngine\RoQ2_video_tools_src\RoQ_video_tools_src\Switchblade4\Source Code\src\switchblade4\Debug\sbmux4.exe

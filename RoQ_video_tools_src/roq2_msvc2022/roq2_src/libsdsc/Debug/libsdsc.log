@@ -1,0 +1,7 @@
+﻿  arg.c
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\libsdsc\arg.c(2308,40): warning C4113: 'int (__cdecl *)()' differs in parameter lists from '_CoreCrtNonSecureSearchSortCompareFunction'
+E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\libsdsc\arg.c(2310,39): warning C4113: 'int (__cdecl *)()' differs in parameter lists from '_CoreCrtNonSecureSearchSortCompareFunction'
+  bin.c
+  tag.c
+  Generating Code...
+  libsdsc.vcxproj -> E:\DoomAndRedEngine\GameEngine\RoQ_video_tools_src\roq2_msvc2013\roq2_src\libsdsc\Debug\libsdsc.lib
