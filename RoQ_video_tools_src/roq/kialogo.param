@@ -1,0 +1,9 @@
+INPUT_DIR	.\kialogo1024
+FILENAME	kialogo.roq
+//3DO 0
+//normalframesize	1
+//stillframequality 255
+
+INPUT
+kialogo*.tga [0001-0391]
+END_INPUT

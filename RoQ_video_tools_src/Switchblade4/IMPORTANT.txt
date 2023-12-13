@@ -1,0 +1,113 @@
+Because of limitations in the RoQ format and Quake 3 and Doom 3 engine games,
+you MUST follow these rules:
+
+Input videos MUST BE 30 FRAMES PER SECOND.
+
+Input video dimensions MUST BE DIVISIBLE BY 16
+
+Input video dimensions MUST BE LESS THAN 65536
+
+If you want to play your video back in a Quake 3 engine game, then
+  input video dimensions MUST BE POWERS OF TWO.  This means 16, 32,
+  64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, or 32768.
+
+Audio may be 11025 Hz, 22050 Hz, or 44100 Hz, any number of bits,
+BUT IT WILL BE ENCODED AS 22050 HZ 16-BIT REGARDLESS OF WHAT YOU
+DO, so it is a good idea to make your input audio those settings.
+
+If you are muxing from an AVI file, it must be 16 bit.
+
+
+
+If you need to prep your videos, you can use VirtualDub, which is a free video
+tool you can get at http://www.virtualdub.com/
+
+INSTRUCTIONS FOR PREPARING A VIDEO WITH VIRTUALDUB:
+
+1. File -> Open video file...
+   Select your source video
+
+2. Video -> Frame Rate...
+   Check "Convert to fps:" and put 30 in the box
+
+3. Video -> Filters...
+   Add...
+   Select "resize"
+   Enter the new dimensions for your video.  Most Quake 3 videos
+      use 512 x 256.  If you want more detail, use 512 x 512.
+   Filter mode should be "Bilinear" or "Precise bilinear"
+   Click "OK" in the filter settings window
+   SEE THE NOTES AT THE END ABOUT ASPECT RATIO IF YOU'RE PLANNING
+      TO ENCODE A FULL-SCREEN VIDEO
+   Click "OK" in the filter list window
+
+4. Audio -> Full processing mode
+
+5. Audio -> Conversion...
+   Select 22050Hz
+   Check "High quality"
+   Leave other settings alone or change to your liking
+
+6. Video -> Compression...
+   Pick a high-quality codec.  DivX or VP are recommended, but
+   Indeo Video will suffice at high quality settings.
+   Do not use Cinepak.
+   DIRECTSHOW-ONLY CODECS ARE NOT SUPPORTED.  XviD, for example, will not work.
+
+
+7. Video -> Save as AVI...
+   Save it somewhere.  Don't overwrite the original.
+
+
+VirtualDub can be downloaded FREE at http://www.virtualdub.com/
+
+
+
+ASPECT RATIO
+   Quake 3 videos are automatically scaled to match your screen
+dimensions most of the time.  Well great... except that means your
+video can get stretched or compressed if it's not the right aspect
+ratio.  To make sure your aspect ratio stays the same for full
+screen video, do this:
+
+Open Calculator
+
+Enter your source video's width
+Click /
+Enter your source video's height
+Click =
+
+IF THE RESULTING NUMBER IS NOT 1.3333333333333333333, etc.
+  THEN YOUR ASPECT RATIO IS OFF, AND YOU NEED TO LETTERBOX YOUR
+  VIDEO OR IT WILL NOT COME OUT RIGHT.
+
+
+
+To fix the aspect ratio, first click Add... and select "resize"
+Check the "Expand frame and letterbox image" box.
+Fill in the "New width" and "Frame width" fields with your
+  movie's width
+Fill in the "New height" and "Frame height" fields with your
+  movie's height
+
+Go back to Calculator
+
+If the number is HIGHER than 1.3333333:
+   Enter your source video's width
+   Click *
+   Enter 0.75, then click =
+
+   Replace the "Frame height" field with that number (before
+     the decimal point if there is one)
+
+
+If the number is LOWER than 1.33333333:
+   Enter your source video's height
+   Click /
+   Enter 0.75, then click =
+
+   Replace the "Frame width" field with that number (before
+     the decimal point if there is one)
+
+
+Now click OK, then click Move Up to move the filter up the list

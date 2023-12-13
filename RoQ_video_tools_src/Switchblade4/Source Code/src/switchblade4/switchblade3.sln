@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sbcodebooks4", "sbcodebooks4\sbcodebooks4.vcproj", "{5EF1F6B7-292C-4880-B004-FAC679B3950F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sbvideo4", "sbvideo4\sbvideo4.vcproj", "{A37BBA8C-CC09-46FA-83F8-AE9269CF7F32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sbmux4", "sbmux4\sbmux4.vcproj", "{5F2C8BB8-0627-45CC-8FFF-61854A0005B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EF1F6B7-292C-4880-B004-FAC679B3950F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5EF1F6B7-292C-4880-B004-FAC679B3950F}.Debug|Win32.Build.0 = Debug|Win32
+		{5EF1F6B7-292C-4880-B004-FAC679B3950F}.Release|Win32.ActiveCfg = Release|Win32
+		{5EF1F6B7-292C-4880-B004-FAC679B3950F}.Release|Win32.Build.0 = Release|Win32
+		{A37BBA8C-CC09-46FA-83F8-AE9269CF7F32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A37BBA8C-CC09-46FA-83F8-AE9269CF7F32}.Debug|Win32.Build.0 = Debug|Win32
+		{A37BBA8C-CC09-46FA-83F8-AE9269CF7F32}.Release|Win32.ActiveCfg = Release|Win32
+		{A37BBA8C-CC09-46FA-83F8-AE9269CF7F32}.Release|Win32.Build.0 = Release|Win32
+		{5F2C8BB8-0627-45CC-8FFF-61854A0005B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F2C8BB8-0627-45CC-8FFF-61854A0005B5}.Debug|Win32.Build.0 = Debug|Win32
+		{5F2C8BB8-0627-45CC-8FFF-61854A0005B5}.Release|Win32.ActiveCfg = Release|Win32
+		{5F2C8BB8-0627-45CC-8FFF-61854A0005B5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
